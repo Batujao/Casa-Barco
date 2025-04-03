@@ -1,0 +1,118 @@
+body {
+    background-color: #808080;
+    text-align: center; /* Garante que todo o conteúdo principal fique alinhado */
+}
+
+.sidebar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    color: #fff;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV8iKsxkhPt-Hr3PDKrlN9zer2xfdDSNeR-A&s);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    max-width: 80%;
+    margin: 20px auto; /* Centraliza */
+}
+
+.casas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(141, 129, 129);
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Define a mesma largura */
+    margin: 0 auto; /* Centraliza */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cards {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.equipamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(141, 129, 129);
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 70%; /* Equipamentos mais estreitos */
+    margin: 20px auto; /* Mantém alinhado com o resto */
+}
+
+.equipamentos h3 {
+    font-size: 22px; /* Título um pouco menor */
+}
+
+.equipamentos .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Menor espaçamento entre os equipamentos */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.equipamentos .cards {
+    background: white;
+    padding: 10px;
+    width: 180px; /* Reduzindo o tamanho dos equipamentos */
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.equipamentos .cards img {
+    width: 150px; /* Reduzindo tamanho da imagem */
+    height: auto;
+}
+.contato-content{
+    background-color:   rgb(141, 129, 129);
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 15px;
+    
+}
+    .contato-content a{
+        color: #333;
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .contato-content a:hover{
+        color: aqua;
+    }
